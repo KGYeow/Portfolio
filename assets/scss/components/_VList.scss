@@ -1,0 +1,9 @@
+.v-list {
+  .v-list-item {
+    &.list-link {
+      &:hover {
+        color: rgb(var(--v-theme-secondary)) !important;
+      }
+    }
+  }
+}

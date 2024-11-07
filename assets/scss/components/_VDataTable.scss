@@ -1,0 +1,52 @@
+.v-data-table {
+  .v-table__wrapper {
+    overflow: visible;
+  }
+
+  th, td {
+    padding: 0 10px !important;
+  }
+
+  tbody {
+    tr {
+      transition: all 0.1s ease-in-out !important;
+
+      &:hover {
+        .actions {
+          color: unset;
+        }
+      }
+
+      &.expanded {
+        > td {
+          padding: 20px 30px 25px 30px !important;
+        }
+      }
+
+      .row-link {        
+        &:hover {
+          color: rgb(var(--v-theme-secondary)) !important;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+
+      &.rowSelected {
+        background-color: rgb(var(--v-theme-grey200));
+      }
+    }
+
+    td {
+      .v-list-item {
+        .v-list-item__content {
+          text-overflow: ellipsis
+        }
+      }
+
+      .actions {
+        color: transparent;
+        transition: all 0.1s ease-in-out;
+      }
+    }
+  }
+}
