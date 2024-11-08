@@ -7,7 +7,7 @@ export default defineNuxtRouteMiddleware(async(to, from) => {
 
   // Redirect to the dashboard if not authorized
   if (!isAuthorized) {
-    return navigateTo('/dashboard')
+    return navigateTo('/')
   }
 })
 

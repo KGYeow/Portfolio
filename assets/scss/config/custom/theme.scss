@@ -1,7 +1,7 @@
 //
 // Vuetify Theme Color Palettes
 //
-// Colour Palette: https://coolors.co/palette/ccd5ae-e9edc9-fefae0-faedcd-d4a373
+// Colour Palette: https://coolors.co/palette/cb997e-ddbea9-ffe8d6-b7b7a4-a5a58d-6b705c
 
 // Element Plus Theme
 :root {
@@ -25,3 +25,5 @@
     --el-button-active-border-color: rgb(var(--v-theme-primary)) !important;
   }
 }
+
+//rgba(var(--v-theme-on-surface), var(--v-high-emphasis-opacity))

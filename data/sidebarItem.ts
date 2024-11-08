@@ -17,37 +17,36 @@ export interface menu {
 }
 
 const sidebarItem: menu[] = [
-  { header: 'Home' },
+  {
+    title: 'Index',
+    to: '/',
+    auth: true
+  },
+
   {
     title: 'Dashboard',
-    icon: tablerIcon.LayoutDashboardIcon,
     to: '/dashboard',
     auth: true
   },
-  { header: 'Sample Section' },
+
   {
     title: 'Sample',
-    icon: tablerIcon.LayersSubtractIcon,
     children: [
       {
         title: 'Sample Page',
-        icon: tablerIcon.ApertureIcon,
         to: '/sample',
         auth: true
       },
       {
         title: 'Typography',
-        icon: tablerIcon.TypographyIcon,
         to: '/sample/typography',
       },
       {
         title: 'Shadow',
-        icon: tablerIcon.CopyIcon,
         to: '/sample/shadow'
       },
       {
         title: 'Icons',
-        icon: tablerIcon.MoodHappyIcon,
         to: '/sample/icons'
       },
     ]

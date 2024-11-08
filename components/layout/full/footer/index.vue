@@ -1,8 +1,8 @@
 <template>
   <v-row>
-    <v-col class="text-center mt-2">
+    <v-col class="text-center mt-2 pb-4">
       <p class="text-muted">
-        Design and Developed by <a flat variant="text" href="https://adminmart.com/" target="_blank" class="pl-1 text-primary">AdminMart.com</a>
+        Copyright © {{ new Date().getFullYear() }} <a flat variant="text" href="#" target="_self" class="pl-1 text-primary fw-bold">Yeow Kok Guan</a>. All Rights Reserved.
       </p>
     </v-col>
   </v-row>
