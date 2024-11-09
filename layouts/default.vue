@@ -3,8 +3,8 @@
     <v-app>
       <LayoutFullMain/>
       <v-main>
-        <v-container fluid class="page-wrapper">
-          <div class="maxWidth">
+        <v-container fluid class="page-wrapper section-light">
+          <div class="">
             <NuxtPage/>
           </div>
         </v-container>
