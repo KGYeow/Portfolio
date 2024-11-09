@@ -21,6 +21,10 @@ const navbarItem: menu[] = [
     auth: true
   },
   {
+    title: 'Skills',
+    auth: true
+  },
+  {
     title: 'Projects',
     auth: true
   },
