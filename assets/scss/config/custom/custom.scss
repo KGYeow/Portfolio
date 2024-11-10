@@ -2,6 +2,24 @@
   background-color: #ffe8d659;
 }
 
+.project-card {
+  transition: 0.2s all cubic-bezier(0.4, 0, 0.2, 1) !important;
+
+  .display-open-new {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0 3px 3px -2px var(--v-shadow-key-umbra-opacity, rgba(0, 0, 0, .2)), 0 3px 4px 0 var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, .14)), 0 1px 8px 0 var(--v-shadow-key-ambient-opacity, rgba(0, 0, 0, .12)) !important;
+    
+    .display-open-new {
+      animation: fadeIn 0.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    }
+  }
+}
+
 .newNotification {
   .v-alert {
     background-color: #f8f9fa;
@@ -58,4 +76,15 @@
 .vc-light.vc-attr,
 .vc-light .vc-attr {
   --vc-highlight-solid-bg: rgb(var(--v-theme-primary)) !important;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }

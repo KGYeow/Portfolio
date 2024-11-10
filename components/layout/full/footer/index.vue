@@ -1,9 +1,18 @@
 <template>
   <v-row>
-    <v-col class="text-center mt-2 pb-4">
-      <p class="text-muted">
+    <v-col class="text-center mt-2 px-10 pt-6 pb-8 d-flex justify-space-between">
+      <div class="text-muted">
         Copyright © {{ new Date().getFullYear() }} <a flat variant="text" href="#" target="_self" class="pl-1 text-primary fw-bold">Yeow Kok Guan</a>. All Rights Reserved.
-      </p>
+      </div>
+      <div class="d-flex">
+        <div v-for="(item, i) in socialMedia" :key="i">
+          <v-btn class="ms-3" density="compact" variant="plain" :icon="item.icon" :ripple="false" :href="item.link" target="_blank"/>
+        </div>
+      </div>
     </v-col>
   </v-row>
 </template>
+
+<script setup lang="ts">
+import socialMedia from '~/data/socialMedia'
+</script>

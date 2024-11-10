@@ -6,14 +6,14 @@
       </v-col>
     </v-row>
   </v-sheet>
-  <v-sheet class="py-10" elevation="10">
+  <v-sheet class="pt-10 pb-3" elevation="10">
     <v-row>
       <v-col>
         <MainJobExperiences/>
       </v-col>
     </v-row>
   </v-sheet>
-  <v-sheet class="py-10" color="transparent">
+  <v-sheet class="pt-10 pb-3" color="transparent">
     <v-row>
       <v-col>
         <MainProjects/>

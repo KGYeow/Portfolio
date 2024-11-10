@@ -1,12 +1,13 @@
-import sidebarItems from '@/data/sidebarItem'
+// import sidebarItems from '@/data/sidebarItem'
 
 export default defineNuxtRouteMiddleware(async(to, from) => {
-  if (to.path.match("/profile")) return
-  // Check if the user is authorized to access the requested page
-  const isAuthorized = checkAuthorization(sidebarItems, to.path)
+  const router = useRouter()
+  const availableRoutes = router.getRoutes()
 
-  // Redirect to the dashboard if not authorized
-  if (!isAuthorized) {
+  // Check if the current route exists in the available routes
+  const routeExists = availableRoutes.some(route => route.path == to.path)
+  // Redirect to the main page if the accessed page is not exist
+  if (!routeExists) {
     return navigateTo('/')
   }
 })

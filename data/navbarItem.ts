@@ -24,10 +24,6 @@ const navbarItem: menu[] = [
     title: 'Projects',
     auth: true
   },
-  {
-    title: 'Contact',
-    auth: true
-  },
 ]
 
 export default navbarItem
