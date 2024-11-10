@@ -1,6 +1,6 @@
 <template>
   <!-- About Me -->
-  <v-sheet class="py-8 d-flex flex-wrap align-end justify-space-between maxWidth bg-transparent">
+  <v-sheet class="d-flex flex-wrap align-end justify-space-between maxWidth bg-transparent">
     <v-sheet max-width="700" color="transparent">
       <!-- Name -->
       <h1 class="font-weight-black" style="font-size: 55px;">Yeow Kok Guan</h1>
