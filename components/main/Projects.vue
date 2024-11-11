@@ -2,14 +2,14 @@
   <!-- Projects -->
   <v-sheet class="maxWidth bg-transparent">
     <!-- Title -->
-    <h1 class="font-weight-black mb-3 text-center">Projects</h1>
+    <h1 id="title-projects" class="font-weight-black mb-3 text-center" style="scroll-margin-top: 90px">Projects</h1>
 
     <!-- Project List -->
     <v-slide-group center-active show-arrows>
       <div class="d-flex flex-wrap justify-space-between w-100">
         <v-slide-group-item v-for="(item, i) in projects" :key="i">
           <!-- Project Card -->
-          <v-card class="project-card mx-4 my-7" max-width="340" rounded="2" elevation="10" :href="item.link" target="_blank">
+          <v-card class="project-card mx-4 my-7" max-width="340" rounded="3" elevation="10" :href="item.link" target="_blank">
             <v-img class="align-end" height="160" :src="item.thumbnail" gradient="to bottom, rgba(0,0,0,.3), rgba(0,0,0,.75)" cover>
               <v-card-item class="pt-4 pb-3">
                 <h5 class="text-h5 mb-1 text-white">{{ item.name }}</h5>

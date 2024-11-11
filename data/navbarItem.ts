@@ -14,15 +14,15 @@ export interface menu {
 const navbarItem: menu[] = [
   {
     title: 'About',
-    auth: true
+    to: '/#title-about',
   },
   {
     title: 'Experience',
-    auth: true
+    to: '/#title-experiences',
   },
   {
     title: 'Projects',
-    auth: true
+    to: '/#title-projects',
   },
 ]
 

@@ -12,11 +12,32 @@
 
   &:hover {
     transform: scale(1.02);
-    box-shadow: 0 3px 3px -2px var(--v-shadow-key-umbra-opacity, rgba(0, 0, 0, .2)), 0 3px 4px 0 var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, .14)), 0 1px 8px 0 var(--v-shadow-key-ambient-opacity, rgba(0, 0, 0, .12)) !important;
+    box-shadow: 0 2px 1px -1px var(--v-shadow-key-umbra-opacity, rgba(0, 0, 0, .2)),
+                0 1px 1px 0 var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, .14)),
+                0 1px 3px 0 var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, .12)) !important;
     
     .display-open-new {
       animation: fadeIn 0.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
     }
+  }
+}
+
+.experience-panels {
+  .v-expansion-panel {
+    transition: 0.2s all cubic-bezier(0.4, 0, 0.2, 1) !important;
+
+    &:hover {
+      background-color: rgba(255, 232, 214, 0.25);
+      box-shadow: 0 2px 1px -1px var(--v-shadow-key-umbra-opacity, rgba(0, 0, 0, .2)),
+                  0 1px 1px 0 var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, .14)),
+                  0 1px 3px 0 var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, .12)) !important;
+    }
+  }
+
+  .v-expansion-panel--active {
+    box-shadow: 0 2px 1px -1px var(--v-shadow-key-umbra-opacity, rgba(0, 0, 0, .2)),
+                0 1px 1px 0 var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, .14)),
+                0 1px 3px 0 var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, .12)) !important;
   }
 }
 
