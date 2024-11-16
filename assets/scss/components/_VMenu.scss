@@ -1,0 +1,29 @@
+.v-menu {
+  .v-list-subheader {
+    margin-inline: 10px;
+    padding: 0 8px !important;
+    min-height: 32px;
+  }
+
+  .v-list-item {
+    border-radius: 4px;
+    margin-inline: 10px;
+    padding: 0 8px !important;
+    
+    .v-list-item-title {
+      font-size: 0.875rem
+    }
+
+    i {
+      font-size: 18px;
+    }
+  }
+
+  .v-list-item--density-compact, .v-list-item--one-line {
+    min-height: 32px;
+  }
+
+  .v-list-item__prepend > .v-icon ~ .v-list-item__spacer {
+    width: 20px;
+  }
+}

@@ -1,0 +1,29 @@
+//
+// Vuetify Theme Color Palettes
+//
+// Colour Palette: https://coolors.co/palette/cb997e-ddbea9-ffe8d6-b7b7a4-a5a58d-6b705c
+
+// Element Plus Theme
+:root {
+  --el-color-primary: rgb(var(--v-theme-primary)) !important;
+  --el-color-success: rgb(var(--v-theme-success)) !important;
+  --el-color-warning: rgb(var(--v-theme-warning)) !important;
+  --el-color-danger: rgb(var(--v-theme-error)) !important;
+
+  --bs-primary: rgb(var(--v-theme-primary)) !important;
+  --bs-primary-rgb: 43, 76, 101 !important;
+  --bs-secondary: rgb(var(--v-theme-secondary)) !important;
+  --bs-secondary-rgb: 107, 139, 164 !important;
+  --bs-success: rgb(var(--v-theme-success)) !important;
+  --bs-warning: rgb(var(--v-theme-warning)) !important;
+  --bs-danger: rgb(var(--v-theme-error)) !important;
+
+  .el-button--primary {
+    --el-button-hover-bg-color: rgb(var(--v-theme-secondary)) !important;
+    --el-button-hover-border-color: rgb(var(--v-theme-secondary)) !important;
+    --el-button-active-bg-color: rgb(var(--v-theme-primary)) !important;
+    --el-button-active-border-color: rgb(var(--v-theme-primary)) !important;
+  }
+}
+
+//rgba(var(--v-theme-on-surface), var(--v-high-emphasis-opacity))

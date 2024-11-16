@@ -1,0 +1,111 @@
+.section-light {
+  background-color: #ffe8d659;
+}
+
+.project-card {
+  transition: 0.2s all cubic-bezier(0.4, 0, 0.2, 1) !important;
+
+  .display-open-new {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0 2px 1px -1px var(--v-shadow-key-umbra-opacity, rgba(0, 0, 0, .2)),
+                0 1px 1px 0 var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, .14)),
+                0 1px 3px 0 var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, .12)) !important;
+    
+    .display-open-new {
+      animation: fadeIn 0.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    }
+  }
+}
+
+.experience-panels {
+  .v-expansion-panel {
+    transition: 0.2s all cubic-bezier(0.4, 0, 0.2, 1) !important;
+
+    &:hover {
+      background-color: rgba(255, 232, 214, 0.25);
+      box-shadow: 0 2px 1px -1px var(--v-shadow-key-umbra-opacity, rgba(0, 0, 0, .2)),
+                  0 1px 1px 0 var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, .14)),
+                  0 1px 3px 0 var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, .12)) !important;
+    }
+  }
+
+  .v-expansion-panel--active {
+    box-shadow: 0 2px 1px -1px var(--v-shadow-key-umbra-opacity, rgba(0, 0, 0, .2)),
+                0 1px 1px 0 var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, .14)),
+                0 1px 3px 0 var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, .12)) !important;
+  }
+}
+
+.newNotification {
+  .v-alert {
+    background-color: #f8f9fa;
+    transition: all 0.1s ease-in-out;
+
+    &:hover {
+      background-color: #dee2e6 !important;
+    }
+
+    &:active {
+      background-color: #ced4da !important;
+    }
+  }
+}
+.notificationLog {
+  .v-alert {
+    transition: all 0.1s ease-in-out;
+
+    &:hover {
+      background-color: #dee2e6 !important;
+    }
+  }
+}
+
+// v-calendar
+.vc-container {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+
+  .vc-header {
+    margin-bottom: 10px;
+    font-size: medium !important;
+
+    button {
+      transition: all 0.1s ease-in-out;
+
+      &.vc-arrow {
+        border-radius: 10px;
+        font-size: 100px !important;
+      }
+    }
+  }
+
+  .vc-weekday {
+    font-size: smaller !important;
+  }
+
+  .vc-day-content {
+    transition: all 0.1s ease-in-out;
+  }
+}
+.vc-light {
+  --vc-focus-ring: 0 0 0 1px rgb(var(--v-theme-primary)) !important;
+}
+.vc-light.vc-attr,
+.vc-light .vc-attr {
+  --vc-highlight-solid-bg: rgb(var(--v-theme-primary)) !important;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
