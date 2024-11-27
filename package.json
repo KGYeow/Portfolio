@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages --dotfiles -d .output/public"
   },
   "dependencies": {
     "@element-plus/nuxt": "^1.0.9",
@@ -19,7 +19,6 @@
     "bootstrap": "^5.3.2",
     "buffer": "^6.0.3",
     "dayjs": "^1.11.11",
-    "gh-pages": "^6.2.0",
     "rollup-plugin-css-only": "^4.5.2",
     "sass": "^1.69.5",
     "sass-loader": "^13.3.2",
@@ -30,6 +29,7 @@
     "vuetify": "^3.7.2"
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "nuxt": "^3.13.0"
   }
 }

@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   // ssr: https://nuxt.com/docs/api/configuration/nuxt-config#ssr
-  ssr: false,
+  // ssr: false,
 
   app: {
     // Global page headers: https://nuxt.com/docs/api/configuration/nuxt-config#head
