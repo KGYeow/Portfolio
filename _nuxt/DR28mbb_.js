@@ -1,0 +1,1 @@
+import{_ as n,c as t,w as a,r as c,o as _,a as s,j as r}from"./Bwe3vVnV.js";const p={};function l(f,m){const e=r,o=c("v-app");return _(),t(o,null,{default:a(()=>[s(e)]),_:1})}const x=n(p,[["render",l]]);export{x as default};
