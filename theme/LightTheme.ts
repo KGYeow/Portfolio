@@ -8,8 +8,12 @@ const PurpleTheme: ThemeTypes = {
     'carousel-control-size': 10
   },
   colors: {
-    primary: '#CB997E',
-    secondary: '#DDBEA9',
+    topbar: '#232323',
+    footer: '#232323',
+    section: '#232323',
+    background: '#111111',
+    primary: '#575757',
+    secondary: '#7A7A7A',
     info: '#539BFF',
     success: '#13DEB9',
     accent: '#FFAB91',
@@ -28,7 +32,7 @@ const PurpleTheme: ThemeTypes = {
     containerBg: '#ffffff',
     hoverColor: '#f6f9fc',
     surface: '#fff',
-    'on-surface': '#000',
+    'on-surface': '#fff',
     'on-surface-variant': '#fff',
     grey100: '#F2F6FA',
     grey200: '#EAEFF4'

@@ -12,12 +12,14 @@
 
       <!-- Description -->
       <p class="font-weight-light">
-        As a recent graduate in Computer Science with a specialization in Intelligent Computing from Universiti Sains Malaysia (USM),
-        I am passionate about creating innovative, technology-driven solutions.
-        My internship as a Software Engineer at Sophic Automation Sdn Bhd gave me hands-on experience in full-stack web development,
-        strengthening my skills in building efficient, user-focused applications.
-        I am dedicated to advancing my expertise in software engineering and intelligent computing, and I am eager to contribute to a forward-thinking organization.
-        With a solid foundation in programming, I look forward to taking on challenging roles that encourage growth and make an impact.
+        A fresh graduate in Computer Science with a specialization in Intelligent Computing from Universiti Sains Malaysia (USM).
+        During an internship at Sophic Automation Sdn Bhd, gained hands-on experience in full-stack web development,
+        honing skills in modern frameworks and tools to create practical and user-focused solutions.
+      </p>
+      <p class="font-weight-light">
+        Eager to continue learning and contributing to various projects in software engineering,
+        with a focus on developing reliable and efficient applications.
+        Alongside this, holds an interest in exploring intelligent computing to drive innovative and impactful solutions.
       </p>
     </v-sheet>
 
@@ -28,11 +30,13 @@
         :width="300"
         :aspect-ratio="9/10"
         cover
-        src="/images/KokGuan_AboutMe.jpg"
+        :src="`${config.app.baseURL}images/KokGuan_AboutMe.jpg`"
       />
     </v-sheet>
   </v-sheet>
 </template>
 
 <script setup lang="ts">
+// Data
+const config = useRuntimeConfig()
 </script>

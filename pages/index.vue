@@ -6,7 +6,7 @@
       </v-col>
     </v-row>
   </v-sheet>
-  <v-sheet class="pt-10 pb-5" elevation="10">
+  <v-sheet class="pt-10 pb-5" elevation="10" color="section">
     <v-row>
       <v-col>
         <MainJobExperiences/>

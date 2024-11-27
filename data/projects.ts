@@ -9,14 +9,14 @@ export interface menu {
 const projects: menu[] = [
   {
     name: "Personal Portfolio Website",
-    thumbnail: "/images/projects/portfolio.png",
+    thumbnail: "images/projects/portfolio.png",
     description: `A portfolio website to showcase my projects and experiences, built with Nuxt 3 JS and SCSS for styling.`,
     techStack: ["HTML", "SCSS", "JavaScript", "TypeScript", "Nuxt 3 JS"],
     link: "https://github.com/KGYeow/Portfolio",
   },
   {
     name: "Intelligent Document Search & Classification (IntelliDoc)",
-    thumbnail: "/images/projects/intellidoc.png",
+    thumbnail: "images/projects/intellidoc.png",
     description: `A web application that allows users to search for documents using regular expression.
                   The system uses machine learning models to classify documents into categories,
                   making it easier for users to find relevant information.`,
@@ -25,7 +25,7 @@ const projects: menu[] = [
   },
   {
     name: "Law Firm Management System",
-    thumbnail: "/images/projects/law_firm_management_system.png",
+    thumbnail: "images/projects/law_firm_management_system.png",
     description: `A group project for a university course built to streamline case management for law firms, centralizing client information, documents, and tasks.
                   It includes alerts for court dates and deadlines to enhance productivity and reduce missed deadlines.`,
     techStack: ["HTML", "SCSS", "JavaScript", "C#", "T-SQL", "Nuxt 3 JS", "ASP.NET Core Web API"],
