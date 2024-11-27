@@ -14,6 +14,8 @@ export default defineNuxtConfig({
         { hid: 'description', name: 'description', content: '' },
       ],
     },
+    baseURL: '/Portfolio/',
+    buildAssetsDir: 'assets',
   },
 
   // Global css: https://nuxt.com/docs/api/configuration/nuxt-config#css
@@ -41,12 +43,6 @@ export default defineNuxtConfig({
   // build: https://nuxt.com/docs/api/nuxt-config#build
   build: {
     transpile: ["vuetify"],
-    extend(config, { isDev, isClient }) {
-      config.module.rules.push({
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader']
-      });
-    }
   },
 
   // vite: https://nuxt.com/docs/api/nuxt-config#vite
@@ -54,15 +50,15 @@ export default defineNuxtConfig({
     define: {
       "process.env.DEBUG": false,
     },
-    build: {
-      rollupOptions: {
-        plugins: [
-          require('rollup-plugin-css-only')({
-            output: 'bundle.css'
-          })
-        ]
-      }
-    }
+    // build: {
+    //   rollupOptions: {
+    //     plugins: [
+    //       require('rollup-plugin-css-only')({
+    //         output: 'bundle.css'
+    //       })
+    //     ]
+    //   }
+    // }
   },
 
   // nitro: https://nuxt.com/docs/api/nuxt-config#nitro
