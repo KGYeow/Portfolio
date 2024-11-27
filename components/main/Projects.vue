@@ -10,7 +10,7 @@
         <v-slide-group-item v-for="(item, i) in projects" :key="i">
           <!-- Project Card -->
           <v-card class="project-card mx-4 my-7" max-width="340" rounded="3" elevation="10" :href="item.link" target="_blank">
-            <v-img class="align-end" height="160" :src="item.thumbnail" gradient="to bottom, rgba(0,0,0,.3), rgba(0,0,0,.75)" cover>
+            <v-img class="align-end" height="160" :src="`${config.app.baseURL}${item.thumbnail}`" gradient="to bottom, rgba(0,0,0,.3), rgba(0,0,0,.75)" cover>
               <v-card-item class="pt-4 pb-3">
                 <h5 class="text-h5 mb-1 text-white">{{ item.name }}</h5>
               </v-card-item>
@@ -31,4 +31,7 @@
 
 <script setup lang="ts">
 import projects from '~/data/projects'
+
+// Data
+const config = useRuntimeConfig()
 </script>

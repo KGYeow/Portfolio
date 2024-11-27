@@ -1,11 +1,13 @@
 // import sidebarItems from '@/data/sidebarItem'
 
 export default defineNuxtRouteMiddleware(async(to, from) => {
+  const config = useRuntimeConfig()
   const router = useRouter()
   const availableRoutes = router.getRoutes()
 
   // Check if the current route exists in the available routes
   const routeExists = availableRoutes.some(route => route.path == to.path)
+  
   // Redirect to the main page if the accessed page is not exist
   if (!routeExists) {
     return navigateTo('/')
