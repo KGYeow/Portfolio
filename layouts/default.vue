@@ -3,7 +3,7 @@
     <v-app>
       <LayoutFullMain/>
       <v-main>
-        <v-container fluid class="page-wrapper section-light">
+        <v-container fluid class="page-wrapper">
           <div class="">
             <NuxtPage/>
           </div>

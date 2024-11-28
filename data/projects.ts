@@ -20,7 +20,7 @@ const projects: menu[] = [
     description: `A web application that allows users to search for documents using regular expression.
                   The system uses machine learning models to classify documents into categories,
                   making it easier for users to find relevant information.`,
-    techStack: ["HTML", "SCSS", "JavaScript", "C#", "T-SQL", "Nuxt 3 JS", "NLP", "ASP.NET Core Web API", "Machine Learning", "Logistic Regression"],
+    techStack: ["HTML", "SCSS", "JavaScript", "C#", "T-SQL", "Nuxt 3 JS", "NLP", "TF-IDF", "ASP.NET Core Web API", "Machine Learning", "Logistic Regression"],
     link: "https://github.com/KGYeow/IntelliDoc",
   },
   {

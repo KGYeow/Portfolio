@@ -24,7 +24,7 @@
     </v-sheet>
 
     <!-- Profile Photo -->
-    <v-sheet>
+    <v-sheet color="transparent">
       <v-img
         rounded="3"
         :width="300"

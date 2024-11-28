@@ -7,7 +7,7 @@
           <v-avatar size="40" :image="`${config.app.baseURL}images/KokGuan_Avatar.jpg`"/>
         </template>
         Yeow Kok Guan
-      </v-btn>
+      </v-btn  >
     </v-app-bar-title>
     <div v-for="(item, i) in navbarItem">
       <v-btn class="fw-bold" variant="plain" size="large" :href="`${config.app.baseURL}${item.to}`" :ripple="false" tag="a">
