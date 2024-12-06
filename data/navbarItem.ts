@@ -13,7 +13,7 @@ export interface menu {
 
 const navbarItem: menu[] = [
   {
-    title: 'About',
+    title: 'About', 
     to: '#title-about',
   },
   {
