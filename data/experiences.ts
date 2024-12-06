@@ -14,10 +14,11 @@ const jobExperiences: menu[] = [
     timeStart: "Mar 2023",
     timeEnd: "Sep 2023",
     description: `Developed a full-stack document management web system template using
-                  Nuxt.js for the front end, ASP.NET Core Web API (C#) for the back end, and
-                  SSMS for the database. Created comprehensive user manual documentation to facilitate smooth
-                  onboarding and system usage. Collaborated closely with team members to ensure timely and accurate
-                  implementation of system designs, contributing to a successful development phase`,
+                  Nuxt.js for the front end, ASP.NET Core Web API (C#) for the back end, and T-SQL for the database.
+                  Created comprehensive user manual documentation to facilitate smooth onboarding and system usage.
+                  Collaborated closely with team members to ensure timely and accurate implementation of system designs,
+                  contributing to a successful development phase. Assisted senior in troubleshooting, debugging,
+                  and refining web development tasks, gaining valuable insights into best practices and efficient workflows`,
     skills: ["HTML", "SCSS", "JavaScript", "C#", "T-SQL", "Nuxt 2 JS", "ASP.NET Core Web API", "SSMS"]
   },
 

@@ -8,9 +8,10 @@ const PurpleTheme: ThemeTypes = {
     'carousel-control-size': 10
   },
   colors: {
-    topbar: '#232323',
+    topbar: '#111111',
     footer: '#232323',
     section: '#232323',
+    card: '#343434',
     background: '#111111',
     primary: '#575757',
     secondary: '#7A7A7A',

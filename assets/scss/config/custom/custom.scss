@@ -1,9 +1,7 @@
-// .background {
-//   background-color: #111111;
-// }
-
-.section {
-  background-color: #232323 !important;
+.parallax-aboutme {
+  .v-responsive__sizer {
+    padding: 0 !important;
+  }
 }
 
 .project-card {
@@ -31,7 +29,6 @@
     transition: 0.2s all cubic-bezier(0.4, 0, 0.2, 1) !important;
 
     &:hover {
-      background-color: rgba(255, 232, 214, 0.25);
       box-shadow: 0 2px 1px -1px var(--v-shadow-key-umbra-opacity, rgba(0, 0, 0, .2)),
                   0 1px 1px 0 var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, .14)),
                   0 1px 3px 0 var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, .12)) !important;

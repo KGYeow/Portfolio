@@ -20,11 +20,11 @@ const socialMedia: menu[] = [
     icon: "mdi-gitlab",
     link: "https://gitlab.com/kokguan0819",
   },
-  {
-    name: "Instagram",
-    icon: "mdi-instagram",
-    link: "https://www.instagram.com/kguannn_819",
-  }
+  // {
+  //   name: "Instagram",
+  //   icon: "mdi-instagram",
+  //   link: "https://www.instagram.com/kguannn_819",
+  // }
 ]
 
 export default socialMedia

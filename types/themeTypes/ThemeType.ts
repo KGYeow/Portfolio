@@ -6,6 +6,7 @@ export type ThemeTypes = {
         topbar?: string;
         footer?: string;
         section?: string;
+        card?: string;
         background?: string;
         primary?: string;
         secondary?: string;
