@@ -6,21 +6,23 @@
       <h1 id="title-about" class="font-weight-black" style="font-size: 55px; scroll-margin-top: 90px">Yeow Kok Guan</h1>
 
       <!-- Title -->
-      <h3 class="text-h3 mb-5">
+      <h3 id="about-small-title" class="text-h3 mb-5">
         Fresh Graduate
       </h3>
 
       <!-- Description -->
-      <p class="font-weight-light">
-        A fresh graduate in Computer Science with a specialization in Intelligent Computing from Universiti Sains Malaysia (USM).
-        During an internship, gained hands-on experience in full-stack web development,
-        honing skills in modern frameworks and tools to create practical and user-focused solutions.
-      </p>
-      <p class="font-weight-light">
-        Eager to continue learning and contributing to various projects in software engineering,
-        with a focus on developing reliable and efficient applications.
-        Alongside this, holds an interest in exploring intelligent computing to drive innovative and impactful solutions.
-      </p>
+      <div id="about-description">
+        <p class="font-weight-light">
+          A fresh graduate in Computer Science with a specialization in Intelligent Computing from Universiti Sains Malaysia (USM).
+          During an internship, gained hands-on experience in full-stack web development,
+          honing skills in modern frameworks and tools to create practical and user-focused solutions.
+        </p>
+        <p class="font-weight-light">
+          Eager to continue learning and contributing to various projects in software engineering,
+          with a focus on developing reliable and efficient applications.
+          Alongside this, holds an interest in exploring intelligent computing to drive innovative and impactful solutions.
+        </p>
+      </div>
     </v-sheet>
   </v-sheet>
 </template>
@@ -29,3 +31,23 @@
 // Data
 const config = useRuntimeConfig()
 </script>
+
+<style lang="scss" scoped>
+@media (max-width: 800px) {
+  .v-sheet {
+    text-align: center;
+  }
+
+  #title-about {
+    font-size: 35px !important;
+  }
+
+  #about-small-title {
+    font-size: 20px !important;
+  }
+
+  #about-description {
+    font-size: 14px !important;
+  }
+}
+</style>
