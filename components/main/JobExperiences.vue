@@ -5,14 +5,14 @@
     <h1 id="title-experiences" class="font-weight-black mb-10 text-center" style="scroll-margin-top: 90px">Experiences</h1>
     
     <!-- Experience List -->
-    <v-timeline id="timeline-experience" dot-color="#000" side="end" :align="`start`" line-color="card">
+    <v-timeline id="timeline-experience" dot-color="#000" side="end" :align="`start`" line-color="primary">
       <v-timeline-item
         v-for="exp in jobExperiences"
-        size="small"
+        size="x-small"
         hide-dot
       >
         <template #opposite>
-          <v-label id="experience-time" class="text-subtitle-1 font-weight-medium text-grey200 text-wrap">
+          <v-label id="experience-time" class="text-subtitle-2 font-weight-medium text-wrap" style="color: #ADB5BD;">
             {{ exp.timeStart }} - {{ exp.timeEnd }}
           </v-label>
         </template>
@@ -47,11 +47,15 @@ import jobExperiences from '~/data/experiences'
 <style lang="scss" scoped>
 @media (max-width: 800px) {
   #timeline-experience {
+    #experience-time {
+      font-size: 10px !important;
+    }
+
     #experience-job {
       font-size: 16px !important;
     }
 
-    #experience-time, #experience-company, #experience-description {
+    #experience-company, #experience-description {
       font-size: 12px !important;
     }
 

@@ -14,7 +14,7 @@ export interface menu {
 const navbarItem: menu[] = [
   {
     title: 'About', 
-    to: '#title-about',
+    to: '#title-aboutme',
   },
   {
     title: 'Experience',
