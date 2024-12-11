@@ -2,7 +2,7 @@
   <!-- Job Experiences -->
   <v-sheet class="maxWidth bg-transparent">
     <!-- Title -->
-    <h1 id="title-experiences" class="font-weight-black mb-10 text-center" style="scroll-margin-top: 90px">Experiences</h1>
+    <h1 id="title-experiences" class="font-weight-black mb-10 text-center">Experiences</h1>
     
     <!-- Experience List -->
     <v-timeline id="timeline-experience" dot-color="#000" side="end" :align="`start`" line-color="primary">

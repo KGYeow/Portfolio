@@ -33,34 +33,34 @@ const projects: menu[] = [
   },
 
   // Testing Data
-  {
-    name: "Real-time Chat Application",
-    thumbnail: "images/products/s7.jpg",
-    description: `A real-time chat application that supports multiple users and rooms, developed using Node.js and WebSocket.`,
-    techStack: ["HTML", "JavaScript", "Node.js", "WebSocket", "CSS"],
-    link: "https://mychatapp.com",
-  },
-  {
-    name: "E-commerce Platform",
-    thumbnail: "images/products/s11.jpg",
-    description: `An e-commerce platform featuring a product catalog, shopping cart, and payment integration.`,
-    techStack: ["HTML", "CSS", "JavaScript", "React", "Node.js", "MongoDB"],
-    link: "https://myecommerce.com",
-  },
-  {
-    name: "Testing Application 1",
-    thumbnail: "images/products/s7.jpg",
-    description: `A real-time chat application that supports multiple users and rooms, developed using Node.js and WebSocket.`,
-    techStack: ["HTML", "JavaScript", "Node.js", "WebSocket", "CSS"],
-    link: "https://mychatapp.com",
-  },
-  {
-    name: "Testing Application 2",
-    thumbnail: "images/products/s11.jpg",
-    description: `An e-commerce platform featuring a product catalog, shopping cart, and payment integration.`,
-    techStack: ["HTML", "CSS", "JavaScript", "React", "Node.js", "MongoDB"],
-    link: "https://myecommerce.com",
-  },
+  // {
+  //   name: "Real-time Chat Application",
+  //   thumbnail: "images/products/s7.jpg",
+  //   description: `A real-time chat application that supports multiple users and rooms, developed using Node.js and WebSocket.`,
+  //   techStack: ["HTML", "JavaScript", "Node.js", "WebSocket", "CSS"],
+  //   link: "https://mychatapp.com",
+  // },
+  // {
+  //   name: "E-commerce Platform",
+  //   thumbnail: "images/products/s11.jpg",
+  //   description: `An e-commerce platform featuring a product catalog, shopping cart, and payment integration.`,
+  //   techStack: ["HTML", "CSS", "JavaScript", "React", "Node.js", "MongoDB"],
+  //   link: "https://myecommerce.com",
+  // },
+  // {
+  //   name: "Testing Application 1",
+  //   thumbnail: "images/products/s7.jpg",
+  //   description: `A real-time chat application that supports multiple users and rooms, developed using Node.js and WebSocket.`,
+  //   techStack: ["HTML", "JavaScript", "Node.js", "WebSocket", "CSS"],
+  //   link: "https://mychatapp.com",
+  // },
+  // {
+  //   name: "Testing Application 2",
+  //   thumbnail: "images/products/s11.jpg",
+  //   description: `An e-commerce platform featuring a product catalog, shopping cart, and payment integration.`,
+  //   techStack: ["HTML", "CSS", "JavaScript", "React", "Node.js", "MongoDB"],
+  //   link: "https://myecommerce.com",
+  // },
 ]
 
 export default projects

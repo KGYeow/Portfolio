@@ -18,7 +18,7 @@ html {
     }
 }
 @media (max-width: 800px) {
-
+    
 }
 .cursor-pointer {
     cursor: pointer;
@@ -28,11 +28,11 @@ html {
     padding: 0px 0 30px 0;
     
     @media screen and (max-width:600px){
-        padding: 10px 0;
+        // padding: 10px 0;
     }
 }
 .maxWidth {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 $sizes: (

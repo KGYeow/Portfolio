@@ -2,7 +2,7 @@
   <!-- Projects -->
   <v-sheet class="maxWidth bg-transparent">
     <!-- Title -->
-    <h1 id="title-projects" class="font-weight-black mb-10 text-center" style="scroll-margin-top: 90px">Projects</h1>
+    <h1 id="title-projects" class="font-weight-black mb-10 text-center">Projects</h1>
 
     <!-- Project List -->
     <v-data-iterator id="iterator-projects" :items="projects" :page="currentPage" :items-per-page="3">
