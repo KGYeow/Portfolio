@@ -1,0 +1,1 @@
+const i=[{name:"LinkedIn",icon:"mdi-linkedin",link:"https://www.linkedin.com/in/yeow-kok-guan"},{name:"GitHub",icon:"mdi-github",link:"https://github.com/KGYeow"},{name:"GitLab",icon:"mdi-gitlab",link:"https://gitlab.com/kokguan0819"}];export{i as s};
