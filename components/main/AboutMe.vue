@@ -19,7 +19,7 @@
           <h1 id="title-aboutme" class="font-weight-black mb-10">About Me</h1>
 
           <!-- Description -->
-          <div id="aboutme-description" class="mb-10">
+          <div id="aboutme-description">
             <p class="text-body-1 font-weight-light">
               <span class="text-h2 font-weight-bold">Hello!</span> I'm Yeow Kok Guan, a fresh graduate in Computer Science with a specialization in Intelligent Computing from Universiti Sains Malaysia (USM).
               During an internship, gained hands-on experience in full-stack web development,
@@ -31,6 +31,12 @@
               Alongside this, holds an interest in exploring intelligent computing to drive innovative and impactful solutions.
             </p>
           </div>
+
+          <v-list id="aboutme-info" class="text-body-1 font-weight-light mb-8" bg-color="transparent" density="compact">
+            <v-list-item class="px-0" prepend-icon="mdi-email-outline">
+              kokguan0819@gmail.com
+            </v-list-item>
+          </v-list>
 
           <!-- Social Media -->
           <div id="aboutme-socialmedia" class="d-flex">
@@ -70,6 +76,12 @@ const config = useRuntimeConfig()
     p {
       font-size: 12px !important;
     }
+  }
+
+  #aboutme-info {
+    margin-bottom: 5px !important;
+    padding-top: 0 !important;
+    font-size: 12px !important;
   }
 
   #aboutme-socialmedia {
