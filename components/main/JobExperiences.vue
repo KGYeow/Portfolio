@@ -2,7 +2,7 @@
   <!-- Job Experiences -->
   <v-sheet class="maxWidth bg-transparent">
     <!-- Title -->
-    <h1 id="title-experiences" class="font-weight-black mb-10 text-center">Experiences</h1>
+    <h1 id="title-experiences" class="font-weight-black mb-10 text-center" data-aos="fade-down">Experiences</h1>
     
     <!-- Experience List -->
     <v-timeline id="timeline-experience" dot-color="#000" side="end" :align="`start`" line-color="primary">
@@ -12,7 +12,7 @@
         hide-dot
       >
         <template #opposite>
-          <v-label id="experience-time" class="text-subtitle-2 font-weight-medium text-wrap" style="color: #ADB5BD;">
+          <v-label id="experience-time" class="text-subtitle-2 font-weight-medium text-wrap" data-aos="fade-left" style="color: #ADB5BD;">
             {{ exp.timeStart }} - {{ exp.timeEnd }}
           </v-label>
         </template>
@@ -21,14 +21,15 @@
           elevation="0"
           rounded="3"
           color="transparent"
+
         >
-          <v-card-title class="pt-0 px-0 text-wrap">
+          <v-card-title class="pt-0 px-0 text-wrap" data-aos="fade-right">
             <h5 id="experience-job" class="text-h5 mb-1">{{ exp.job }}</h5>
             <h5 id="experience-company" class="text-subtitle-1 text-grey200 font-weight-medium font-italic">{{ exp.company }}</h5>
           </v-card-title>
           <v-card-text class="px-0 py-0 text-wrap">
-            <p id="experience-description" class="text-body-1 font-weight-light mb-2">{{ exp.description }}</p>
-            <div class="d-flex flex-wrap"> 
+            <p id="experience-description" class="text-body-1 font-weight-light mb-2" data-aos="fade-right">{{ exp.description }}</p>
+            <div class="d-flex flex-wrap" data-aos="fade-right"> 
               <v-chip id="experience-skills" class="text-body-2 me-2 my-1" density="compact" v-for="skill in exp.skills">
                 {{ skill }}
               </v-chip>

@@ -24,9 +24,7 @@ export default defineNuxtConfig({
   ],
 
   // modules: https://nuxt.com/docs/api/configuration/nuxt-config#modules
-  modules: [
-    '@element-plus/nuxt',
-  ],
+  modules: ['@element-plus/nuxt', 'nuxt-aos'],
 
   // typescript: https://nuxt.com/docs/api/nuxt-config#typescript
   typescript: {

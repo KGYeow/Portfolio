@@ -22,21 +22,37 @@
         </h3>
       </v-sheet>
     </v-parallax>
-    <v-sheet id="section-aboutme" class="section py-10" color="transparent" style="scroll-margin-top: var(--v-layout-top)">
+    <v-sheet
+      id="section-aboutme"
+      class="section py-10"
+      color="transparent"
+      style="scroll-margin-top: var(--v-layout-top); overflow: hidden;"
+    >
       <v-row class="mx-0">
         <v-col>
           <MainAboutMe/>
         </v-col>
       </v-row>
     </v-sheet>
-    <v-sheet id="section-experiences" class="section py-10" elevation="5" color="section" style="scroll-margin-top: var(--v-layout-top)">
+    <v-sheet
+      id="section-experiences"
+      class="section py-10"
+      elevation="5"
+      color="section"
+      style="scroll-margin-top: var(--v-layout-top); overflow: hidden;"
+    >
       <v-row class="mx-0">
         <v-col>
           <MainJobExperiences/>
         </v-col>
       </v-row>
     </v-sheet>
-    <v-sheet id="section-projects" class="section pt-10 pb-3" color="transparent" style="scroll-margin-top: var(--v-layout-top)">
+    <v-sheet
+      id="section-projects"
+      class="section pt-10 pb-3"
+      color="transparent"
+      style="scroll-margin-top: var(--v-layout-top); overflow: hidden;"
+    >
       <v-row class="mx-0">
         <v-col>
           <MainProjects/>
