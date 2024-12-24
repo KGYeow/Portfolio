@@ -31,18 +31,25 @@ const projects: menu[] = [
     techStack: ["HTML", "SCSS", "JavaScript", "C#", "T-SQL", "Nuxt 3 JS", "ASP.NET Core Web API"],
     link: "https://github.com/KGYeow/Law_Firm_Management_System",
   },
+  {
+    name: "3D Objects Shading Program",
+    thumbnail: "images/projects/3d_objects_shading_program.png",
+    description: `A group assignment for a university course. This is a WebGL program that demonstrates and visualizes the effects of shading on the 3D objects.`,
+    techStack: ["HTML", "JavaScript", "CSS", "WebGL"],
+    link: "https://github.com/KGYeow/3D-objects-shading-program",
+  }
 
   // Testing Data
   // {
   //   name: "Real-time Chat Application",
-  //   thumbnail: "/images/products/s7.jpg",
+  //   thumbnail: "images/products/s7.jpg",
   //   description: `A real-time chat application that supports multiple users and rooms, developed using Node.js and WebSocket.`,
   //   techStack: ["HTML", "JavaScript", "Node.js", "WebSocket", "CSS"],
   //   link: "https://mychatapp.com",
   // },
   // {
   //   name: "E-commerce Platform",
-  //   thumbnail: "/images/products/s11.jpg",
+  //   thumbnail: "images/products/s11.jpg",
   //   description: `An e-commerce platform featuring a product catalog, shopping cart, and payment integration.`,
   //   techStack: ["HTML", "CSS", "JavaScript", "React", "Node.js", "MongoDB"],
   //   link: "https://myecommerce.com",

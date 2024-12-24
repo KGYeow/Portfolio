@@ -13,16 +13,19 @@ export interface menu {
 
 const navbarItem: menu[] = [
   {
-    title: 'About', 
-    to: '#title-about',
+    title: 'About',
+    icon: 'mdi-information-outline',
+    to: '#section-aboutme',
   },
   {
     title: 'Experience',
-    to: '#title-experiences',
+    icon: 'mdi-briefcase-outline',
+    to: '#section-experiences',
   },
   {
     title: 'Projects',
-    to: '#title-projects',
+    icon: 'mdi-folder-open-outline',
+    to: '#section-projects',
   },
 ]
 

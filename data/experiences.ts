@@ -18,7 +18,7 @@ const jobExperiences: menu[] = [
                   Created comprehensive user manual documentation to facilitate smooth onboarding and system usage.
                   Collaborated closely with team members to ensure timely and accurate implementation of system designs,
                   contributing to a successful development phase. Assisted senior in troubleshooting, debugging,
-                  and refining web development tasks, gaining valuable insights into best practices and efficient workflows`,
+                  and refining web development tasks, gaining valuable insights into best practices and efficient workflows.`,
     skills: ["HTML", "SCSS", "JavaScript", "C#", "T-SQL", "Nuxt 2 JS", "ASP.NET Core Web API", "SSMS"]
   },
 

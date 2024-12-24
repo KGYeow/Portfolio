@@ -4,7 +4,7 @@
       <LayoutFullMain/>
       <v-main>
         <v-container fluid class="page-wrapper">
-          <div class="">
+          <div>
             <NuxtPage/>
           </div>
         </v-container>
@@ -12,3 +12,6 @@
     </v-app>
   </v-locale-provider>
 </template>
+
+<style>
+</style>
