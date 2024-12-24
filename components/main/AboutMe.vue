@@ -29,7 +29,7 @@
             <p class="text-body-1 font-weight-light" data-aos="fade-left">
               Eager to continue learning and contributing to various projects in software engineering,
               with a focus on developing reliable and efficient applications.
-              Alongside this, holds an interest in exploring intelligent computing to drive innovative and impactful solutions.
+              Alongside this, holds an interest in exploring intelligent computing, such as machine learning and data analytics, to drive innovative and impactful solutions.
             </p>
           </div>
 

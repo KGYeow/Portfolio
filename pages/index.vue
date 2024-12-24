@@ -24,9 +24,9 @@
     </v-parallax>
     <v-sheet
       id="section-aboutme"
-      class="section py-10"
+      class="section py-10 overflow-hidden"
       color="transparent"
-      style="scroll-margin-top: var(--v-layout-top); overflow: hidden;"
+      style="scroll-margin-top: var(--v-layout-top)"
     >
       <v-row class="mx-0">
         <v-col>
@@ -36,10 +36,10 @@
     </v-sheet>
     <v-sheet
       id="section-experiences"
-      class="section py-10"
+      class="section py-10 overflow-hidden"
       elevation="5"
       color="section"
-      style="scroll-margin-top: var(--v-layout-top); overflow: hidden;"
+      style="scroll-margin-top: var(--v-layout-top)"
     >
       <v-row class="mx-0">
         <v-col>
@@ -49,9 +49,9 @@
     </v-sheet>
     <v-sheet
       id="section-projects"
-      class="section pt-10 pb-3"
+      class="section pt-10 pb-3 overflow-hidden"
       color="transparent"
-      style="scroll-margin-top: var(--v-layout-top); overflow: hidden;"
+      style="scroll-margin-top: var(--v-layout-top)"
     >
       <v-row class="mx-0">
         <v-col>

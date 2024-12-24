@@ -12,16 +12,17 @@
         hide-dot
       >
         <template #opposite>
-          <v-label id="experience-time" class="text-subtitle-2 font-weight-medium text-wrap" data-aos="fade-left" style="color: #ADB5BD;">
-            {{ exp.timeStart }} - {{ exp.timeEnd }}
-          </v-label>
+          <div class="overflow-hidden">
+            <v-label id="experience-time" class="text-subtitle-2 font-weight-medium text-wrap" data-aos="fade-left" style="color: #ADB5BD;">
+              {{ exp.timeStart }} - {{ exp.timeEnd }}
+            </v-label>
+          </div>
         </template>
         <v-sheet
-          class="mb-5"
+          class="mb-5 overflow-hidden"
           elevation="0"
           rounded="3"
           color="transparent"
-
         >
           <v-card-title class="pt-0 px-0 text-wrap" data-aos="fade-right">
             <h5 id="experience-job" class="text-h5 mb-1">{{ exp.job }}</h5>

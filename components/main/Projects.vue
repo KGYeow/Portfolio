@@ -2,14 +2,14 @@
   <!-- Projects -->
   <v-sheet class="maxWidth bg-transparent">
     <!-- Title -->
-    <h1 id="title-projects" class="font-weight-black mb-10 text-center">Projects</h1>
+    <h1 id="title-projects" class="font-weight-black mb-10 text-center" data-aos="fade-down">Projects</h1>
 
     <!-- Project List -->
     <v-data-iterator id="iterator-projects" :items="projects" :page="currentPage" :items-per-page="3">
       <template #default="{ items }">
         <v-row class="mb-3">
           <v-col cols="12" lg="4" md="4" sm="12" v-for="(item, i) in items">
-            <v-card class="project-card h-100 w-100" rounded="1" elevation="5" :href="item.raw.link" target="_blank" color="card">
+            <v-card class="project-card h-100 w-100" rounded="1" elevation="5" :href="item.raw.link" target="_blank" color="card" data-aos="fade-right">
               <v-img
                 id="project-image"
                 class="align-end"
@@ -34,7 +34,7 @@
         </v-row>
       </template>
       <template #footer="{ pageCount }">
-        <v-pagination id="iterator-projects-pagination" class="text-body-1" density="comfortable" rounded="1" v-model="currentPage" :length="pageCount"/>
+        <v-pagination id="iterator-projects-pagination" class="text-body-1" density="comfortable" rounded="1" v-model="currentPage" :length="pageCount" data-aos="fade-right"/>
       </template>
     </v-data-iterator>
   </v-sheet>
