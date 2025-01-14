@@ -22,14 +22,17 @@
           <!-- Description -->
           <div id="aboutme-description">
             <p class="text-body-1 font-weight-light" data-aos="fade-left">
-              <span class="text-h2 font-weight-bold">Hello!</span> I'm Yeow Kok Guan, a fresh graduate in Computer Science with a specialization in Intelligent Computing from Universiti Sains Malaysia (USM).
+              <span class="text-h2 font-weight-bold">Hello!</span>
+              I'm Yeow Kok Guan, a fresh graduate in Computer Science with a specialization in Intelligent Computing from Universiti Sains Malaysia (USM).
               During an internship, gained hands-on experience in full-stack web development,
               honing skills in modern frameworks and tools to create practical and user-focused solutions.
+              In addition to this, I have a basic foundation in intelligent computing, including machine learning and data analytics,
+              which I acquired during my degree.
             </p>
             <p class="text-body-1 font-weight-light" data-aos="fade-left">
               Eager to continue learning and contributing to various projects in software engineering,
               with a focus on developing reliable and efficient applications.
-              Alongside this, holds an interest in exploring intelligent computing, such as machine learning and data analytics, to drive innovative and impactful solutions.
+              Alongside this, holds an interest in exploring intelligent computing to drive innovative and impactful solutions.
             </p>
           </div>
 
@@ -50,7 +53,7 @@
   </v-sheet>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import socialMedia from '~/data/socialMedia'
 
 // Data

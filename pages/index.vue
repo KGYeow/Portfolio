@@ -48,7 +48,7 @@
       </v-row>
     </v-sheet>
     <v-sheet
-      id="section-projects"
+      id="section-projects"        
       class="section pt-10 pb-3 overflow-hidden"
       color="transparent"
       style="scroll-margin-top: var(--v-layout-top)"
@@ -70,6 +70,15 @@ const config = useRuntimeConfig()
 useHead({
   title: "Yeow Kok Guan",
 })
+
+// Methods
+const typewriter = (text, i) => {
+  if (i < text.length) {
+    document.getElementById('aboutme-description').innerHTML += text.charAt(i)
+    i++
+    setTimeout(() => typewriter(text, i), 50)
+  }
+}
 </script>
 
 <style lang="scss" scoped>
